@@ -1,0 +1,34 @@
+h1 {
+     color:#000000;
+    }
+     * {
+        background-color:#e4ff44;
+     }
+     p,h2{
+         text-align: center;
+         color: darkblue;
+         font-size: large;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+     }
+     
+     .header{
+         background-color: #84ffd5;
+         display: flex;
+         justify-content: space-between;
+     }
+     .grid{
+         display:flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+     }
+     .footer{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .grid img{
+        border:2px #000000 solid;
+        border-radius: 50px;
+        background-color: bisque;
+    }
